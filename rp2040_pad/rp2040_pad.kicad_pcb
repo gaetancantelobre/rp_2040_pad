@@ -584,7 +584,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 1.75 360)
+			(at 0 1.75 0)
 			(layer "F.SilkS")
 			(uuid "faff3bbd-976e-403d-b595-4ce90e264dba")
 			(effects
@@ -595,7 +595,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2eb7613a-b0c5-4671-a21d-a778bf94d4b1")
 			(effects
@@ -750,7 +750,7 @@
 			(uuid "6ec23d85-5a4d-42f1-8e49-c0b25e2db393")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a8a64fb1-ba14-4616-9e9a-1136386ef8a1")
 			(effects
@@ -2777,7 +2777,7 @@
 		(descr "Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "D14"
-			(at -0.1 -1.65 360)
+			(at -0.1 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "a4c7cad9-1702-4c2a-a607-73b10372efe9")
 			(effects
@@ -2788,7 +2788,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "35d5e8a9-2464-4c61-94e3-1207cba689de")
 			(effects
@@ -2943,7 +2943,7 @@
 			(uuid "6bdf7257-2187-44fb-913e-fdd54daee3f0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5245dbd6-71e1-4afb-a81b-94069202b862")
 			(effects
@@ -13600,7 +13600,7 @@
 		(descr "Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "D13"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "ea1a748a-5677-41a7-b67d-159c19efa6c5")
 			(effects
@@ -13611,7 +13611,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0.1 0.05 360)
+			(at 0.1 0.05 0)
 			(layer "F.Fab")
 			(uuid "e27c40b4-0487-42bd-b716-2d8634cd19db")
 			(effects
@@ -13766,7 +13766,7 @@
 			(uuid "660a2af5-c5ff-4651-80cd-73784a94aabd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8f8ea0a9-5d23-41e2-8a6c-4b17fb7abee6")
 			(effects

@@ -491,7 +491,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_TRACES",
+        "pattern": "ENC_SA"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
