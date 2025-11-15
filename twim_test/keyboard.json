@@ -1,0 +1,54 @@
+{
+    "manufacturer": "Gaetan Cantelobre",
+    "keyboard_name": "twim_test",
+    "maintainer": "Gaetan Cantelobre",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true  
+    },
+    "matrix_pins": {
+        "cols": ["GP2", "GP4", "GP9"],
+        "rows": ["GP3", "GP1", "GP0"]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2}
+            ]
+        }
+    },
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "GP5",
+                "pin_b": "GP6",
+                "resolution": 4
+            },
+            {
+                "pin_a": "GP7",
+                "pin_b": "GP8",
+                "resolution": 4
+            }
+        ]
+    }
+}
